@@ -1,0 +1,32 @@
+
+.row{
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: darkcyan;
+}
+i{
+    font-size: 2rem;
+    margin: 25px;
+}
+ .social a{
+    display: inline-block;
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+}
+ .social a:hover{
+    transform: translateY(-8px);
+}
+ .social a:hover .icon-youtube{
+    color: red;
+}
+ .social a:hover .icon-facebook{
+   color: blue;
+}
+ .social a:hover .icon-instagram{
+   color: var(--title-color); 
+}
+ .social{
+    grid-auto-flow: column;
+    width: fit-content; 
+}
