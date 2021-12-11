@@ -4,7 +4,7 @@ class Footer extends React.Component{
     render(){
         return(
             <div className="container-fluid">
-                <div className="row">
+                <div className="row footer">
                     <div className="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 text-center">
                         <h1>NFT <span>Gallery</span></h1> 
                     </div>
