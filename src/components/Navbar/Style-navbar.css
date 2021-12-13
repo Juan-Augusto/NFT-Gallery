@@ -1,11 +1,74 @@
-ul{
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap');
+nav#navbar--dom{
+    background-color: #082032;
+    padding: 46px 0px 0px 0px;
+}
+.container-fluid{
+    padding: 0 !important;
+    align-items: baseline !important;
+
+}
+button.navbar-toggler{
+    margin-right: 32px;
+}
+.icon-menu{
+    color: #F0F8FE;
+    font-size: 32px;
+    
+}
+span.navbar-toggler-icon{
+    color: #F0F8FE;
+
+}
+.navbar--title{
+    margin: 0 0 22px 32px;
+    color: #F0F8FE;
+    text-decoration: underline #6FBBF4;
+}
+.navbar--title:hover{
+    color: #F0F8FE;
+}
+.navbar-collapse{
+    background-color: #F0F8FE !important;
+    padding-bottom: 24px;
+}
+ul h3{
+    text-align: start;
+    margin-bottom: 24px;
+    padding: 0;
+    transition: .2s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+ul h3:hover{
+    font-weight: 700;
+    color: #082032;
 }
 .navlink{
     text-decoration: none;
-    color: black;
+    color: #082032;
     text-align: center;
 }
 li{
     margin-right: 20px;
+    border-bottom: solid #082032 1px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 0;
+}
+@media(min-width: 992px){
+    .navbar-collapse{
+        background-color: #082032 !important;
+        flex-grow: 0;
+        margin-right: 0;
+    }
+    ul h3{
+        color: #F0F8FE;
+        font-size: 20px;
+    }
+    ul h3:hover{
+        font-weight: 700;
+        color: #F0F8FE;
+    }
 }

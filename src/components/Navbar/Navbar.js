@@ -1,28 +1,31 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Style-navbar.css'
 class  Navbar extends React.Component{
     render(){
         return(
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-lg navbar-light" id="navbar--dom">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">NFT Gallery</a>
+                        <a className="navbar--title" href="#"><h1>Horizon</h1></a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
+                            <span className="icon-menu"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link to="/" className="navlink">Início</Link>
+                                    <NavLink to="/" className="navlink"><h3>Home</h3></NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/produtos" className="navlink">Imagens</Link>
+                                    <NavLink to="/" className="navlink"><h3>Saiba mais</h3></NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink to={'/categorias/' + 1} className="navlink"><h3>Artes</h3></NavLink>
                                 </li>    
                                 <li className="nav-item">
-                                    <Link to="/produtos" className="navlink">Jogos</Link>
+                                    <NavLink to={'/categorias/' + 2} className="navlink"><h3>Jogos</h3></NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/produtos" className="navlink">Músicas</Link>
+                                    <NavLink to={'/categorias/' + 3} className="navlink"><h3>Músicas</h3></NavLink>
                                 </li>   
                             </ul>
                         </div>

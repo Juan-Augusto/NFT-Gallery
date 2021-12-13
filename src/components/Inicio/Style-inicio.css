@@ -1,26 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
 .section-nft{
     display: grid;
     justify-items: center;
+    background-color: #F5B72D;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #F0F8FE;
+    font-family: 'Montsserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #F0F8FE;
+    text-align: center;
 }
 h3{
-    margin-top: 40px;
     margin-bottom: 10px;
     padding: 0 25px 0 25px;
     text-align: center;
+    font-family: 'Montsserrat', sans-serif;
+    font-weight: 700;
+}
+h3.text-transition{
+    color: #F0F8FE;
+
+}
+h2{
+    text-align: center;
+    margin: 16px 30px 24px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Montsserrat', sans-serif;
+}
+.divider-1{
+    width: 270px;
+    height: 2px;
+    background: linear-gradient(
+        90deg,
+        #F5B72D,
+        #15252f
+
+    );
 }
 button.saiba-mais{
     max-width: 140px;
     border-radius: 10px;
-    padding: 8px 25px 8px 25px;
+    padding: 8px 20px 8px 20px;
     margin-bottom: 40px;
+    color: #F0F8FE;
+    border: none;
+}
+.button-description{
+    font-family: 'Montserrat', sans-serif;
+    color: #15252f;
+    margin: 0;
 }
 img.image-init{
-    margin-bottom: 3rem;
-    max-width: 95%;
+    margin-bottom: 2rem;
+    max-width: 360px;
 }
 .product-presentation{
     display: grid;
-    background-color: burlywood;
+    background-color: #15252f;
     padding: 40px;
 }
 .presentation-item{
@@ -28,44 +72,20 @@ img.image-init{
     flex-direction: column;
     align-items: center;
 }
-.categories-nft{
-    max-width: 150px;
-    clip-path: circle(50%);
+.card-games{
+    background-color: #6FBBF4;
 }
-.section-games{
-    background-image: url(https://files.nsctotal.com.br/s3fs-public/graphql-upload-files/montar%20pc%20gamer%20setups%20free%20fire%20fortnite%20lol%20gta%20pubg_1.jpg?kkXn0MeZrkTGZ3jYlphQF5ddy143EgJc);
-    align-items: flex-end;
-    padding-right: 50px;
-    
+.card-arts{
+    background-color: #F587EB;
+}
+.card-musics{
+    background-color: #F2F556;
+}
+.card-text{
+    color: #15252f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 
-}
-.section-art{
-    background-image: url(https://fhox.com.br/wp-content/uploads/2021/05/fly-d-6Gp87Et3N-A-unsplash-1600x1067.jpg);
-    align-items: flex-start;
-    padding-left: 50px;
 
-}
-.section-music{
-    background-image: url(https://nftplazas.com/wp-content/uploads/2021/06/triptcip-1.jpg);
-    padding-right: 50px;
-    align-items: flex-end;
-}
-.section-games,
-.section-art,
-.section-music{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    color: cornsilk;
-}
-h3.section-description-right{
-    text-align: end;
-    max-width: 300px;
-}
-h3.section-description-left{
-    text-align: start;
-    max-width: 300px;
-}
+

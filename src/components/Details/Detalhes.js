@@ -20,7 +20,7 @@ class Detalhes extends React.Component{
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <h3>{produto.nome}</h3>
-                        <p>{produto.descricao}</p>
+                        <p><strong>Owner:</strong> {produto.descricao}</p>
                         <p><strong>Preço: ETH {produto.preco}</strong></p>
                     </div>
                 </div>

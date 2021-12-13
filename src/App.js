@@ -3,7 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Inicio from './components/Inicio/Inicio';
-import Produtos from './components/Produtos/Produtos';
+import Musicas from './components/Musicas/Musicas';
+import Artes from './components/Artes/Artes';
+import Jogos from './components/Jogos/Jogos';
 import Detalhes from './components/Details/Detalhes';
 function App() {
   return (
@@ -12,10 +14,10 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Inicio/>}/>
-          <Route path="/produtos" element={<Produtos/>}/>
+          <Route path="/categorias/:id" element={<Artes/>}/>
+          <Route path="/categorias/:id" element={<Jogos/>}/>
+          <Route path="/categorias/:id" element={<Musicas/>}/>
           <Route path="/produtos/:id" element={<Detalhes/>}/>
-
-
         </Routes>
       </BrowserRouter>
         <Footer/>
