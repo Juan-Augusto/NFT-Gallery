@@ -1,3 +1,26 @@
 *{
     margin: 0;
 }
+.section--title{
+    color: #F0F8FE;
+}
+.feature-photo{
+    padding: 0 !important;
+    align-items: center;
+}
+.container{
+    padding-left: 0 !important;
+}
+img.feature-photo-pic{
+    margin: 0;
+}
+.card-body{
+    background-color: #F0F8FE;
+    text-align: center;
+}
+.card-body h5{
+    font-size: 16px;
+}
+.btn--card{
+    text-decoration: none;
+}

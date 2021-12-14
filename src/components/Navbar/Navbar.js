@@ -16,7 +16,7 @@ class  Navbar extends React.Component{
                                     <NavLink to="/" className="navlink"><h3>Home</h3></NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to="/" className="navlink"><h3>Saiba mais</h3></NavLink>
+                                    <NavLink to={"/saibamais"} className="navlink"><h3>Saiba mais</h3></NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink to={'/categorias/' + 1} className="navlink"><h3>Artes</h3></NavLink>

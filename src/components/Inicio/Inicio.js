@@ -8,10 +8,6 @@ import jogos from "../../Images/jogos-pic.png";
 import artes from "../../Images/artes-pic.png";
 import musicas from "../../Images/musicas-pic.png";
 
-
-
-
-
 class Caroussel extends React.Component{
     render(){
         return(

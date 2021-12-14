@@ -7,6 +7,7 @@ import Musicas from './components/Musicas/Musicas';
 import Artes from './components/Artes/Artes';
 import Jogos from './components/Jogos/Jogos';
 import Detalhes from './components/Details/Detalhes';
+import SaibaMais from './components/Saiba-mais/Saiba-mais';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Inicio/>}/>
+          <Route path="/saibamais" element={<SaibaMais/>}/>
           <Route path="/categorias/:id" element={<Artes/>}/>
           <Route path="/categorias/:id" element={<Jogos/>}/>
           <Route path="/categorias/:id" element={<Musicas/>}/>

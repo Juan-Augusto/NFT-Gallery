@@ -3,13 +3,18 @@
     justify-content: space-evenly;
     padding-top: 30px;
     background-color: darkcyan;
+
 }
 i{
     font-size: 2rem;
     margin: 25px;
 }
+.grid{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
  .social a{
-    display: inline-block;
     transition: .3s;
     text-decoration: none;
     color: black;
@@ -25,8 +30,4 @@ i{
 }
  .social a:hover .icon-instagram{
    color: var(--title-color); 
-}
- .social{
-    grid-auto-flow: column;
-    width: fit-content; 
 }
