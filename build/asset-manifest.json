@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.93305fc5.chunk.css",
-    "main.js": "/static/js/main.c1e66961.chunk.js",
-    "main.js.map": "/static/js/main.c1e66961.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.da8f53ac.js",
-    "runtime-main.js.map": "/static/js/runtime-main.da8f53ac.js.map",
-    "static/js/2.9ea532a3.chunk.js": "/static/js/2.9ea532a3.chunk.js",
-    "static/js/2.9ea532a3.chunk.js.map": "/static/js/2.9ea532a3.chunk.js.map",
-    "static/js/3.af54b69b.chunk.js": "/static/js/3.af54b69b.chunk.js",
-    "static/js/3.af54b69b.chunk.js.map": "/static/js/3.af54b69b.chunk.js.map",
+    "main.css": "/static/css/main.4a3aed29.chunk.css",
+    "main.js": "/static/js/main.8deac639.chunk.js",
+    "main.js.map": "/static/js/main.8deac639.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fa358cae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fa358cae.js.map",
+    "static/js/2.e59c5673.chunk.js": "/static/js/2.e59c5673.chunk.js",
+    "static/js/2.e59c5673.chunk.js.map": "/static/js/2.e59c5673.chunk.js.map",
+    "static/js/3.83341149.chunk.js": "/static/js/3.83341149.chunk.js",
+    "static/js/3.83341149.chunk.js.map": "/static/js/3.83341149.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.93305fc5.chunk.css.map": "/static/css/main.93305fc5.chunk.css.map",
-    "static/js/2.9ea532a3.chunk.js.LICENSE.txt": "/static/js/2.9ea532a3.chunk.js.LICENSE.txt"
+    "static/css/main.4a3aed29.chunk.css.map": "/static/css/main.4a3aed29.chunk.css.map",
+    "static/js/2.e59c5673.chunk.js.LICENSE.txt": "/static/js/2.e59c5673.chunk.js.LICENSE.txt",
+    "static/media/artes-pic.dc0dfd03.png": "/static/media/artes-pic.dc0dfd03.png",
+    "static/media/feature-photo-art.10e31729.png": "/static/media/feature-photo-art.10e31729.png",
+    "static/media/feature-photo-games.935f8618.png": "/static/media/feature-photo-games.935f8618.png",
+    "static/media/feature-photo-musics.729f2570.png": "/static/media/feature-photo-musics.729f2570.png",
+    "static/media/Style-saiba-mais.css": "/static/media/fundo-home.73dbe51d.png",
+    "static/media/galerias.456bc966.png": "/static/media/galerias.456bc966.png",
+    "static/media/jogos-pic.dd66c40c.png": "/static/media/jogos-pic.dd66c40c.png",
+    "static/media/musicas-pic.db177ad9.png": "/static/media/musicas-pic.db177ad9.png",
+    "static/media/selecione.d7190243.png": "/static/media/selecione.d7190243.png",
+    "static/media/teste.7840bdb6.png": "/static/media/teste.7840bdb6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.da8f53ac.js",
-    "static/js/2.9ea532a3.chunk.js",
-    "static/css/main.93305fc5.chunk.css",
-    "static/js/main.c1e66961.chunk.js"
+    "static/js/runtime-main.fa358cae.js",
+    "static/js/2.e59c5673.chunk.js",
+    "static/css/main.4a3aed29.chunk.css",
+    "static/js/main.8deac639.chunk.js"
   ]
 }

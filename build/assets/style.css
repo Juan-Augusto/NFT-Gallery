@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?7e9f7');
-  src:  url('fonts/icomoon.eot?7e9f7#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?7e9f7') format('truetype'),
-    url('fonts/icomoon.woff?7e9f7') format('woff'),
-    url('fonts/icomoon.svg?7e9f7#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?v61cca');
+  src:  url('fonts/icomoon.eot?v61cca#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?v61cca') format('truetype'),
+    url('fonts/icomoon.woff?v61cca') format('woff'),
+    url('fonts/icomoon.svg?v61cca#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,44 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bubble:before {
+.icon-embed:before {
   content: "\e905";
 }
-.icon-comment:before {
+.icon-code:before {
   content: "\e905";
 }
-.icon-chat:before {
+.icon-html:before {
   content: "\e905";
 }
-.icon-talk:before {
+.icon-xml:before {
   content: "\e905";
-}
-.icon-earth:before {
-  content: "\e906";
-}
-.icon-globe:before {
-  content: "\e906";
-}
-.icon-language:before {
-  content: "\e906";
-}
-.icon-web:before {
-  content: "\e906";
-}
-.icon-internet:before {
-  content: "\e906";
-}
-.icon-sphere:before {
-  content: "\e906";
-}
-.icon-planet:before {
-  content: "\e906";
-}
-.icon-read_more:before {
-  content: "\e907";
-}
-.icon-arrow_back_ios:before {
-  content: "\e908";
 }
 .icon-menu:before {
   content: "\e900";
