@@ -1,33 +1,14 @@
 
 .footer{
+    display: flex;
     justify-content: space-evenly;
     padding-top: 30px;
-    background-color: darkcyan;
+    background-color: #F0F8FE;
 
 }
-i{
-    font-size: 2rem;
-    margin: 25px;
+.footer-text{
+    color: #082032;
 }
-.grid{
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
-}
- .social a{
-    transition: .3s;
-    text-decoration: none;
-    color: black;
-}
- .social a:hover{
-    transform: translateY(-8px);
-}
- .social a:hover .icon-youtube{
-    color: red;
-}
- .social a:hover .icon-facebook{
-   color: blue;
-}
- .social a:hover .icon-instagram{
-   color: var(--title-color); 
-}
+
+
+

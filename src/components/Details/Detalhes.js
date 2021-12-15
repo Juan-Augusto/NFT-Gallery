@@ -1,5 +1,8 @@
 import React from "react";
+import "./Style-detalhes.css";
 import apiNFTGallery from "../Services/Api";
+import { NavLink } from 'react-router-dom';
+
 
 class Detalhes extends React.Component{
     state = {
@@ -13,15 +16,22 @@ class Detalhes extends React.Component{
     render(){
         const {produto} = this.state
         return(
-            <div className="container" key={produto.codigo}>
-                <div className="row">
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <img src={produto.link_foto} width="100%" />
+            <div className="container-fluid" key={produto.codigo}>
+                <div className="details-container">
+                    <div className="container-fluid details-title">
+                        <h3 className="product-title">{produto.nome}</h3>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <h3>{produto.nome}</h3>
-                        <p><strong>Owner:</strong> {produto.descricao}</p>
-                        <p><strong>Preço: ETH {produto.preco}</strong></p>
+                    <NavLink to="/" className="navlink"><i className="icon-arrow_back_ios"></i></NavLink>
+                    <div className="details-show">
+                        <img src={produto.link_foto} className="product-photo"/>
+                        <div className="details-description">
+                            <p className="product-description">{produto.descricao}</p>
+                            <div className="buttons-section">
+                                <a href={produto.disponivel} target="_blank"><button className="button-details">Conheça o produto <i className="icon-planet"></i></button></a>
+                                <a href={produto.preco} target="_blank"><button className="button-details">Redes associadas <i className="icon-planet"></i></button></a>
+                                <a href={produto.destaque} target="_blank"><button className="button-details">Mais detalhes <i className="icon-read_more"></i></button></a>
+                            </div>    
+                        </div>
                     </div>
                 </div>
             </div>

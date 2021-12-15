@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Style-artes.css";
 import { NavLink, useParams } from "react-router-dom";
 import apiNFTGallery from "../Services/Api"
-import featurePhotoArts from "../../Images/feature-photo-games.png"
+import featurePhotoArts from "../../Images/feature-photo-art.png"
     
 
 const Artes= () =>{
@@ -16,12 +16,12 @@ const Artes= () =>{
     return(
  
             <>
-                <div className="container">
-                    <div className="container feature-photo">
+                <div className="container-fluid">
+                    <div className="container-fluid feature-photo">
                             <img src={featurePhotoArts} alt="" className="feature-photo-pic"/>
                     </div>
-                    <div className="row product-presentation">
-                        <h3 className="section--title">Artes</h3>
+                    <div className="container-fuid row product-presentation">
+                        <h3 className="section--title">Confira os produtos</h3>
                         { lista.map(produto => (
                             <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
                                 <div className="card" key={produto.id_categoria}>

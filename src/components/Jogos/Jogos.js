@@ -21,7 +21,6 @@ const Jogos= () =>{
                         <img src={featurePhotoGames} alt="" className="feature-photo-pic"/>
                     </div>
                     <div className="row">
-                        <h3 className="section--title">Jogos</h3>
                         { lista.map(produto => (
                             <div className="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
                                 <div className="card" key={produto.id_categoria}>

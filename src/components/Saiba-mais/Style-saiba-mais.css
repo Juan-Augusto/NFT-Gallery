@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.extras-section{
+    background-image: url("../../Images/fundo-home.png");
+    display: flex;
+    height: 245px;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.extras-presentation{
+    background-color: #082032;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards-extras{
+    margin-left: 50px;
+}
+.extras-title-section{
+    color: #F0F8FE;
+    font-family: 'Montserrat', sans-serif;
+}
+iframe{
+    width: 300px;
+}
+.extra-cards{
+    color: #082032;
+    font-size: 12px;
+    text-align: justify;
+}
+.extra-video-cards{
+    border-radius: 8px;
+    max-width: 300px;
+
+}

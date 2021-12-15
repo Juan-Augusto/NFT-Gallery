@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
 .section-nft{
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #F5B72D;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.section-nft-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     color: #F0F8FE;
@@ -26,6 +32,8 @@ h3{
 }
 h3.text-transition{
     color: #F0F8FE;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 h2{
@@ -60,10 +68,10 @@ button.saiba-mais{
 }
 img.image-init{
     margin-bottom: 2rem;
-    max-width: 360px;
 }
 .product-presentation{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: #082032;
     padding: 40px;
 }
@@ -72,8 +80,15 @@ img.image-init{
     flex-direction: column;
     align-items: center;
 }
+.card-home-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
 .card-games{
     background-color: #6FBBF4;
+    
 }
 .card-arts{
     background-color: #F587EB;
@@ -86,6 +101,41 @@ img.image-init{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+
+@media(min-width: 768px){
+    .section-nft{
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .section-nft-content{
+        align-items: flex-end;
+        padding: 0;
+    }
+    .divider-1,
+    .saiba-mais{
+        margin-right: 2rem;
+    }
+    .image-init{
+        margin: 0 !important;
+        width: 800px;
+    }
+    .product-presentation{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .presentation-item{
+        max-width: 200px;
+    }
+    .card-home-section{
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+}
+
+
 
 
 

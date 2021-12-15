@@ -14,10 +14,12 @@ class Caroussel extends React.Component{
             <div>
                 <div className="section-nft">
                     <img src={teste} className="image-init" alt="" />
-                    <h3>Seja parte da nova revolução da arte</h3>
-                    <div className="divider-1"></div>
-                    <h2>Conheça o mercado de NFTs, a forma de arte da era da criptoeconomia.</h2>
-                    <button className="saiba-mais"><h2 className="button-description">Saiba mais</h2></button>
+                    <div className="section-nft-content">
+                        <h3>Seja parte da nova revolução da arte</h3>
+                        <div className="divider-1"></div>
+                        <h2>Conheça o mercado de NFTs, a forma de arte da era da criptoeconomia.</h2>
+                        <button className="saiba-mais"><h2 className="button-description">Saiba mais</h2></button>
+                    </div>
                 </div>
 
                 <div className="product-presentation">
@@ -37,24 +39,26 @@ class Caroussel extends React.Component{
                         <h1>Selecione</h1>
                         <p>Se interessou pela NFT? Clique e và diretamente à página de compra.</p>
 
-                </div>
+                    </div>
                     <h3 className="text-transition">Experimente, descubra e explore as categorias</h3>
-                    <div className="card">
-                        <img src={jogos} className="card-img-top" alt="..."/>
-                        <div className="card-body card-games">
-                            <p className="card-text">JOGOS</p>
+                    <div className="card-home-section">
+                        <div className="card">
+                            <img src={jogos} className="card-img-top" alt="..."/>
+                            <div className="card-body card-games">
+                                <p className="card-text">JOGOS</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card">
-                        <img src={artes} className="card-img-top" alt="..."/>
-                        <div className="card-body card-arts">
-                            <p className="card-text">ARTES</p>
+                        <div className="card">
+                            <img src={artes} className="card-img-top" alt="..."/>
+                            <div className="card-body card-arts">
+                                <p className="card-text">ARTES</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card">
-                        <img src={musicas} className="card-img-top" alt="..."/>
-                        <div className="card-body card-musics">
-                            <p className="card-text">MÚSICAS</p>
+                        <div className="card">
+                            <img src={musicas} className="card-img-top" alt="..."/>
+                            <div className="card-body card-musics">
+                                <p className="card-text">MÚSICAS</p>
+                            </div>
                         </div>
                     </div>
                 </div>
