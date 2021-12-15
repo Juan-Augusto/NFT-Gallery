@@ -1,12 +1,11 @@
 import React from "react";
 import "./Style-saiba-mais.css";
-
 class SaibaMais extends React.Component{
     render(){
         return(
             <>
-                <div className="extras-section">
-                    <iframe src={"https://www.youtube.com/watch?v=36PfcKn1Q_8&t=64s"} frameborder="10"></iframe>
+                <div className="container-fluid extras-section" controls autoplay>
+                    <a target="_blank" href={"https://www.youtube.com/watch?v=CfcC_vd1tDY&t=1s"}><img className="video-presentation"  src="https://i.ytimg.com/vi/CfcC_vd1tDY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNvkZ9rfr2vb_FB-RY4elSUaPfJg" alt="" /></a>
                 </div>
                 <div className="extras-presentation">
                     <h2 className="extras-title-section">Conselhos e recomendações sobre NTF’s:</h2>
