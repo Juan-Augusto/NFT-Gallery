@@ -1,9 +1,14 @@
 *{
     margin: 0;
 }
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 .extras-section{
     background-image: url("../../Images/fundo-home.png");
     display: flex;
+    background-size: cover;
     height: 245px;
     background-repeat: no-repeat;
     justify-content: space-evenly;
@@ -15,9 +20,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 50px;
 }
-.cards-extras{
-    margin-left: 50px;
+.card-format{
+    display: flex;
+    max-width: 770px;
 }
 .extras-title-section{
     color: #F0F8FE;
@@ -35,4 +42,27 @@ iframe{
     border-radius: 8px;
     max-width: 300px;
 
+}
+
+@media(min-width: 768px){
+    .card-image{
+        max-width: 320px;
+    }
+    .card-format{
+        flex-direction: row;
+        margin: 38px 40px 8px 40px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .extra-cards{
+        font-size: 16px;
+    }
+    .extras-section{
+        height: 350px;
+    }
+    iframe{
+        width: 770px;
+    }
+    
 }

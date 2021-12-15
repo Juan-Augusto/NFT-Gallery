@@ -42,19 +42,19 @@ class Caroussel extends React.Component{
                     </div>
                     <h3 className="text-transition">Experimente, descubra e explore as categorias</h3>
                     <div className="card-home-section">
-                        <div className="card">
+                        <div className="card cards-home-categories">
                             <img src={jogos} className="card-img-top" alt="..."/>
                             <div className="card-body card-games">
                                 <p className="card-text">JOGOS</p>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="card cards-home-categories">
                             <img src={artes} className="card-img-top" alt="..."/>
                             <div className="card-body card-arts">
                                 <p className="card-text">ARTES</p>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="card cards-home-categories">
                             <img src={musicas} className="card-img-top" alt="..."/>
                             <div className="card-body card-musics">
                                 <p className="card-text">MÚSICAS</p>

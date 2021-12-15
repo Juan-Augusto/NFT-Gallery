@@ -6,9 +6,7 @@
     background-color: #082032;
     flex-direction: column;
 }
-.details-show{
-    
-}
+
 .product-title{
     color: #F0F8FE;
 }
@@ -43,5 +41,16 @@
     .details-show{
         display: flex;
         align-items: flex-start;
+    }
+    .product-description{
+        max-width: 470px;
+    }
+    .product-photo{
+        max-width: 570px;
+    }
+}
+@media(min-width: 1110px){
+    .product-description{
+        max-width: 700px;
     }
 }

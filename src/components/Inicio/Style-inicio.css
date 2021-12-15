@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 h1{
     color: #F0F8FE;
     font-family: 'Montsserrat', sans-serif;
@@ -131,7 +132,14 @@ img.image-init{
     .card-home-section{
         flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
 
+    }
+    .cards-home-categories{
+        margin-right: 25px;
+    }
+    .categories-nft{
+        width: 176px;
     }
 }
 
