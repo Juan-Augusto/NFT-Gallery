@@ -61,6 +61,8 @@ button.saiba-mais{
     margin-bottom: 40px;
     color: #F0F8FE;
     border: none;
+    transition: .3s;
+
 }
 button:hover{
     transform: translateY(-5px);    
